@@ -9,8 +9,8 @@ import java.text.DecimalFormat;
 public class Main {
 
     /**
-     *
-     * @param args
+     * Método principal.
+     * @param args de la línea de comandos.
      */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);

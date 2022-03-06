@@ -57,7 +57,7 @@ public class Aro {
 
     /**
      * Método que establece el radio.
-     * @param valorRadio
+     * @param valorRadio de la circunferencia.
      */
     public void setRadio(double valorRadio) {
 
