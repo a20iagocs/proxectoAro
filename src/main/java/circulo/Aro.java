@@ -5,7 +5,7 @@ package circulo;
  * @author Iago
  */
 public class Aro {
-    public static final double MINIMO = 0.0;
+    public static final double LIMITERADIO = 0.0;
 
     private int obterX;
     private int obterY;
@@ -38,7 +38,7 @@ public class Aro {
 
     public void establecerRadio(double valorRadio) {
 
-        radio=(valorRadio < MINIMO ? MINIMO : valorRadio);
+        radio=(valorRadio < LIMITERADIO ? LIMITERADIO : valorRadio);
     }
 
     public double obterRadio() {
