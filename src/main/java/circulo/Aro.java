@@ -7,33 +7,33 @@ package circulo;
 public class Aro {
     public static final double MINIMO = 0.0;
 
-    private int x;
-    private int y;
+    private int obterX;
+    private int obterY;
     private double radio;
 
     public Aro() {
     }
 
     public Aro(int valorX, int valorY, double valorRadio) {
-        x = valorX;
-        y = valorY;
+        obterX = valorX;
+        obterY = valorY;
         establecerRadio(valorRadio);
     }
 
     public void establecerX(int valorX) {
-        x=valorX;
+        obterX=valorX;
     }
 
     public int obterX() {
-        return x;
+        return obterX;
     }
 
     public void establecerY(int valorY) {
-        y=valorY;
+        obterY=valorY;
     }
 
     public int obterY() {
-        return y;
+        return obterY;
     }
 
     public void establecerRadio(double valorRadio) {
@@ -59,11 +59,11 @@ public class Aro {
 
     @Override
     public String toString() {
-        return "Centro = [" + x + "," + y + "]; Radio = " + radio;
+        return "Centro = [" + obterX + "," + obterY + "]; Radio = " + radio;
     }
 
     public void trasladarCentro(int trasladarx, int trasladary){
-        x=x + trasladarx;
-        y=y + trasladary;
+        obterX=obterX + trasladarx;
+        obterY=obterY + trasladary;
     }
 }
